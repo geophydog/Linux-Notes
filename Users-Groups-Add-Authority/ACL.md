@@ -11,7 +11,7 @@
   sudo useradd -m xfeng4
   ```
   
-  用了 -m 选项是为了让 xfeng1, xfeng2, xfeng3 和 xfeng4 都有家目录  
+- 用了 -m 选项是为了让 xfeng1, xfeng2, xfeng3 和 xfeng4 都有家目录  
   
   ```
   sudo passwd xfeng1
