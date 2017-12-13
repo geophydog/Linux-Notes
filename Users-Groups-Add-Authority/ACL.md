@@ -33,3 +33,4 @@ sudo passwd xfeng4
   sudo usermod -a -G editors xfeng3
   sudo usermod -a -G editors xfeng4
   ```
+  - 用了 -a： 添加（append）； -G： groupname  
