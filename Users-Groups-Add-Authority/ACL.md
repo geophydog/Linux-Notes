@@ -20,6 +20,8 @@ sudo passwd xfeng3
 sudo passwd xfeng4  
 ```
 
+***
+
 ### 2. 创建用户组并添加用户
   #### 2.1 添加用户组
   ```
@@ -33,4 +35,13 @@ sudo passwd xfeng4
   sudo usermod -a -G editors xfeng3
   sudo usermod -a -G editors xfeng4
   ```
-- 用了 -a： 添加（append）； -G： groupname  
+- 用了 -a： 添加（append）； -G： groupname
+
+***
+### 3. 使用访问控制表（ACL）
+``` 
+现在问题为你有一个目录 test_dir 给readers用户组成员读取权限，同时给 editors 用户组读写权限，此时便用到 setfacl 命令。
+```
+```
+setfacl OPTION X:NAME:Y test_dir
+```
