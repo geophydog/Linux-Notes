@@ -21,12 +21,12 @@ sudo passwd xfeng4
 ```
 
 ### 创建用户组并添加用户
-#### 添加用户组
+  #### 添加用户组
 ```
 sudo groupadd readers
 sudo groupadd editors
 ```
-#### 添加用户到相应用户组
+  #### 添加用户到相应用户组
 ```
 sudo usermod -a -G readers xfeng1
 sudo usermod -a -G readers xfeng2
