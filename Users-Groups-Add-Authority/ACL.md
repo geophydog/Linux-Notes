@@ -3,7 +3,7 @@
 现假设有两个用户组要新建： readers 和 editors；
 其中readers用户组有两个用户：xfeng1 和 xfeng2，editors用户组有两个用户：xfeng3 和 xfeng4；
 ```
-### 创建用户  
+### 1. 创建用户  
   ```
   sudo useradd -m xfeng1
   sudo useradd -m xfeng2
@@ -20,13 +20,13 @@ sudo passwd xfeng3
 sudo passwd xfeng4  
 ```
 
-### 创建用户组并添加用户
-    #### 添加用户组
+### 2. 创建用户组并添加用户
+  #### 2.1 添加用户组
   ```
   sudo groupadd readers
   sudo groupadd editors
   ```
-   #### 添加用户到相应用户组  
+  #### 2.2 添加用户到相应用户组  
   ```
   sudo usermod -a -G readers xfeng1
   sudo usermod -a -G readers xfeng2
