@@ -13,9 +13,9 @@
   
 - 用了 -m 选项是为了让 xfeng1, xfeng2, xfeng3 和 xfeng4 都有家目录  
   
-  ```
-  sudo passwd xfeng1  
-  sudo passwd xfeng2  
-  sudo passwd xfeng3  
-  sudo passwd xfeng4  
-  ```
+```
+sudo passwd xfeng1  
+sudo passwd xfeng2  
+sudo passwd xfeng3  
+sudo passwd xfeng4  
+```
