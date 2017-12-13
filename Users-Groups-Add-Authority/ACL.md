@@ -44,4 +44,8 @@ sudo passwd xfeng4
 ```
 ```
 setfacl OPTION X:NAME:Y test_dir
+OPTION 为可选选项；
+X 可以使用户或用户组；
+NAME 为用户或用户组的名字；
+Y 为权限 rwx。
 ```
