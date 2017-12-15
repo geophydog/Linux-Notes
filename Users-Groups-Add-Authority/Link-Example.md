@@ -79,3 +79,4 @@ ping www.baidu.com && echo "Verified" || echo "Host down"
 ```
 ping 通了输出“Verified” 否则输出“Host down”
 ```
+![]And-or.jpg](https://github.com/geophydog/Linux-Notes/blob/master/Users-Groups-Add-Authority/images/And-or.jpg)
