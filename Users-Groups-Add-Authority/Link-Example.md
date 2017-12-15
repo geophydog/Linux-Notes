@@ -68,3 +68,4 @@ touch a.txt b.txt c.pdf d.pdf e.html f.html
 ```
 rm !(*.txt)
 ```
+https://github.com/geophydog/Linux-Notes/blob/master/Users-Groups-Add-Authority/images/!.jpg
