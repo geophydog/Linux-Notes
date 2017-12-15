@@ -55,7 +55,7 @@ mkdir test || links www.baidu.com
 ***
 
 :book:
-## ! 非操作符
+## 5. ! 非操作符
 ```
 我们先新建一些文件
 ```
@@ -72,7 +72,7 @@ rm !(*.txt)
 
 ***
 
-## && ||联合操作
+## 6. && ||联合操作
 ```
 ping www.baidu.com && echo "Verified" || echo "Host down"
 ```
@@ -80,3 +80,23 @@ ping www.baidu.com && echo "Verified" || echo "Host down"
 ping 通了输出“Verified” 否则输出“Host down”
 ```
 ![And-or.jpg](https://github.com/geophydog/Linux-Notes/blob/master/Users-Groups-Add-Authority/images/And-or.jpg)
+
+***
+
+## 7. {} 命令合并操作符
+```
+合并两个或多个命令， 第二个命令依赖于第一个命令的执行。
+```
+```
+[ -f ~/Downloads/xyz.txt ] || {touch ~/Downloads/xyz.txt; echo "The file xyz.txt does not exist! New file is created!"}
+```
+
+***
+
+## 8. () 有限操作符 
+```
+(command1 && command2) || (command3 && command4)
+```
+```
+如果command1执行失败，command2不会被执行，但是command3会被执行，command4依赖于command3退出状态。
+```
