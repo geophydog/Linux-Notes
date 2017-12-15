@@ -12,9 +12,9 @@ sudo yum update & mkdir test &
 ***
 
 :book: 
-## 2. ; 分好操作符
+## 2. ; 分号操作符
 ```
-分好操作符可以使你连续顺序执行多个命令
+分号操作符可以使你连续顺序执行多个命令
 ```
 ```
 sudo yum update; sudo yum upgrade; mkdir test
@@ -50,4 +50,21 @@ mkdir test || links www.baidu.com
 ```
 ```
 第一条命令状态返回值为0， 第二条命令不会被执行。
+```
+
+***
+
+:book:
+## ! 非操作符
+```
+我们先新建一些文件
+```
+```
+touch a.txt b.txt c.pdf d.pdf e.html f.html
+```
+```
+现在将除以.txt 的文件都删掉
+```
+```
+rm !(*.txt)
 ```
