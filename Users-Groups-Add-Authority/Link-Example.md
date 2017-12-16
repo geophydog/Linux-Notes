@@ -1,3 +1,4 @@
+:hotel: [Return to Home Page](https://github.com/geophydog/geophydog.github.io/blob/master/README.md#welcome-to-geophydogs-self-pages)
 :book: 
 ## 1. & 和号操作符
 ### 1.1 后台执行命令
