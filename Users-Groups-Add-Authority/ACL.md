@@ -1,3 +1,4 @@
+:hotel: [Return Home Page](https://github.com/geophydog/geophydog.github.io/blob/master/README.md#welcome-to-geophydogs-self-pages)
 ## 访问控制表(ACL: access control list)
 ```
 现假设有两个用户组要新建： readers 和 editors；
