@@ -1,3 +1,4 @@
+:hotel: [Return Home Page](https://github.com/geophydog/geophydog.github.io/blob/master/README.md#welcome-to-geophydogs-self-pages)
 ## 1. 获取命令行参数
 ```
 例如执行脚本：
