@@ -1,4 +1,7 @@
 :hotel:[Return to Home Page](https://github.com/geophydog/geophydog.github.io)
+***
+### :one: Strategy
+
 ```shell
 #!/bin/bash  
 #  
@@ -50,3 +53,18 @@ echo -e "\033[K 清除光标到行尾的内容 \033[0m"
 echo -e "\033[?25l 隐藏光标 \033[0m"  
 echo -e "\033[?25h 显示光标 \033[0m"  
 ```
+
+***
+
+### :two: Example
+```shell
+echo -e "\033[31m Black Fonts \033[0m"
+echo -e "\033[32m Green Fonts \033[0m"
+echo -e "\033[33m Yellow Fonts \033[0m"
+echo -e "\033[34m Blue Fonts \033[0m"
+echo -e "\033[35m Purple Fonts \033[0m"
+echo -e "\033[36m Skyblue Fonts \033[0m"
+echo -e "\033[37m White Fonts \033[0m"
+```
+- output
+![pic]()
