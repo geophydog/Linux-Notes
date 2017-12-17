@@ -12,3 +12,7 @@
 ***
 
 ### :four:[read from keyboard](https://github.com/geophydog/Linux-Notes/blob/master/Shell/Input-from-keyboard.md)
+
+***
+
+### :five:[output-colorful-fonts](https://github.com/geophydog/Linux-Notes/blob/master/Shell/output-colorful-fonts.md)
