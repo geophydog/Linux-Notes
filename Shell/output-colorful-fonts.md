@@ -66,5 +66,5 @@ echo -e "\033[35m Purple Fonts \033[0m"
 echo -e "\033[36m Skyblue Fonts \033[0m"
 echo -e "\033[37m White Fonts \033[0m"
 ```
-- output
-![pic]()
+- output  
+![pic](https://github.com/geophydog/Linux-Notes/blob/master/Shell/images/pic.jpg)
