@@ -6,4 +6,9 @@
 ### :two:[shell parameters](https://github.com/geophydog/Linux-Notes/blob/master/Shell/Shell-parameters.md)
 
 ***
+
 ### :three:[string-number-comparison](https://github.com/geophydog/Linux-Notes/blob/master/Shell/string-number-comparison.md)
+
+***
+
+### :four:[read from keyboard](https://github.com/geophydog/Linux-Notes/blob/master/Shell/Input-from-keyboard.md)
