@@ -80,12 +80,29 @@ A
 tac filename
 ```
 
+***
+
 ### :three: AWK 方法
 ```
 awk '{line[NR]=$0} END {for(i=NR;i>0;i--) print line[i]}' filename
 ```
 
+***
+
 ### :four: VI or VIM
 ```
 :g/^/m0
+```
+
+***
+
+### :five: shell 编程，利用递归
+```
+revread(){
+    local line
+    read line || return 0
+    revread
+    echo ${line}
+}
+revread < filename
 ```
