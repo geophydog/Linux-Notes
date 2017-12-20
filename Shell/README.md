@@ -19,3 +19,7 @@
 ***
 
 ### :five:[output-colorful-fonts](https://github.com/geophydog/Linux-Notes/blob/master/Shell/output-colorful-fonts.md)
+
+***
+
+### :six: [output file with reverse order](https://github.com/geophydog/Linux-Notes/blob/master/Shell/reverse-order.md)
