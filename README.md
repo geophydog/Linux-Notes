@@ -15,3 +15,5 @@
 - :four: [AWK](https://github.com/geophydog/AWK/blob/master/awk-loop.md)
 ***
 - :five: [ADD-USERS-ON-LINUX-SERVER](https://github.com/geophydog/Linux-Notes/blob/master/Users-Groups-Add-Authority/Add-users-on-linux-server.md)
+***
+- :six: [Auto-logout from like Unix system](https://github.com/geophydog/Linux-Notes/blob/master/Users-Groups-Add-Authority/Auto-logout.md)
