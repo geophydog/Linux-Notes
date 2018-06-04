@@ -26,4 +26,4 @@
 
 ***
 
-### ::seven [x-plus-1](https://github.com/geophydog/Linux-Notes/blob/master/Shell/x-plus-1.md)
+### :seven: [x-plus-1](https://github.com/geophydog/Linux-Notes/blob/master/Shell/x-plus-1.md)
